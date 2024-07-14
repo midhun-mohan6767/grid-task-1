@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite CU", cursive;
+}
+.container{
+    width: 100%;
+    /* height: 100vh; */
+    font-size: larger;
+    font-weight: 700;
+    background-image: url(./bglast.jpg);
+    background-size: cover;
+    
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    margin-left: 400px;
+
+}
+.grid-item{
+    padding: 1px;
+    width: 200px;
+     
+}
+.grid1{
+    width: 200px;
+    height: 300px;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+}
+p{
+    color: blanchedalmond;
+    text-align: justify;
+    line-gap-override: 4px;
+}
+h1{
+    color: beige;
+    text-align: justify;
+}
+.jkp{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.au{
+    text-align: center;
+}
+.more{
+    position: absolute;
+    margin-top: 200px;
+}
+.frame{
+    margin-top: 1800px;
+}
+.character{
+    width: 50%;
+    text-align: center;
+    margin-left: 400px;
+}
+.footer{
+    background-color: black;
+    color: aqua;
+    height: 100px;
+}
