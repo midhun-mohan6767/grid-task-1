@@ -9,8 +9,10 @@
     /* height: 100vh; */
     font-size: larger;
     font-weight: 700;
-    background-image: url(./bglast.jpg);
-    background-size: cover;
+    background-image: url(./oldbg1.jpg);
+    /* background-size: cover; */
+    background-size: contain;
+
     
 
 }
@@ -28,20 +30,32 @@
 .grid-item{
     padding: 1px;
     width: 200px;
-     
-}
+ 
+
+ }    
+
 .grid1{
     width: 200px;
     height: 300px;
 }
+.one{
+
+    /* position: relative; */
+    margin-left: 500px;
+    /* background-color: black; */
+
+
+}
 .logo{
-    width: 100%;
+    width: 50%;
     height: 100px;
 }
 p{
-    color: blanchedalmond;
+    color: rgb(38, 20, 5);
     text-align: justify;
     line-gap-override: 4px;
+    font-weight: bolder;
+
 }
 h1{
     color: beige;
@@ -68,7 +82,21 @@ h1{
     margin-left: 400px;
 }
 .footer{
-    background-color: black;
+    background-color: rgb(41, 31, 31);
     color: aqua;
-    height: 100px;
+    display: flex ;
+    gap: 20px;
+}
+.fone{
+    background-color: rgb(5, 4, 4);
+}
+.twi{
+    font-size: xx-large;
+    margin-left: 45%;
+}
+.insta{
+    font-size: xx-large;
+}
+.face{
+    font-size: xx-large;
 }
